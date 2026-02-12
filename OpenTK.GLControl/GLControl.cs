@@ -40,6 +40,10 @@ namespace OpenTK.GLControl
         /// </summary>
         private GLControlDesignTimeRenderer? _designTimeRenderer;
 
+
+        public NativeWindow NativeWindow => _nativeWindow;
+
+
         /// <summary>
         /// Gets or sets a value representing the current graphics API.
         /// This value cannot be changed after the control has been initialized (before <see cref="OnHandleCreated(EventArgs)"/> is triggered).
